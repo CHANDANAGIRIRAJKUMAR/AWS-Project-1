@@ -28,9 +28,9 @@ background-size: 100% 100%">
 <?php
 $firstname=$_POST['firstname'];
 $email=$_POST['email'];
-$servername = "raj-project-rds.cdmgwoeeqjds.eu-north-1.rds.amazonaws.com";
+$servername = "sana-2.cb6w26co63e3.us-east-1.rds.amazonaws.com";
 $username = "admin";
-$password = "intel123";
+$password = "admin123";
 $db = "intel";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
