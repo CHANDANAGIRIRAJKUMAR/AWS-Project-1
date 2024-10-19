@@ -31,7 +31,7 @@ $email=$_POST['email'];
 $servername = "raj-project.c18swoqoozho.us-east-1.rds.amazonaws.com";
 $username = "admin";
 $password = "admin123";
-$db = "raj-project";
+$db = "intel";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
